@@ -1,0 +1,15 @@
+name: MobproofEndCrystals
+version: '${project.version}'
+main: com.intensitymc.mobproofendcrystals.MobproofEndCrystals
+api-version: 1.19
+depend: [ CMI ]
+description: Allow the creation of spawnproof areas of 64x64x64 blocks with just one end crystal
+
+commands:
+  mobproof:
+
+permissions:
+  mobproof.admin:
+    description: Allow user to set proofing radius
+  mobproof.anvil:
+    description: Allow user to rename an End Crystal on the anvil
