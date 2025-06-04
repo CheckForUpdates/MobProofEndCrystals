@@ -1,0 +1,21 @@
+name: MobproofEndCrystals
+version: '${project.version}'
+main: com.intensitymc.mobproofendcrystals.MobproofEndCrystals
+api-version: 1.20
+description: A crystal that prevents hostile mobs from spawning.
+
+commands:
+  mobproof:
+
+permissions:
+  mobproof.admin:
+    description: Allow user to set proofing radius and crystal name
+    default: op
+  mobproof.anvil:
+    description: Allow user to rename an End Crystal on the anvil
+    default: op
+  mobproof.recipe:
+    description: Allow user to craft a crystal on the workbench
+    default: op
+  mobproof.override:
+    description: Allows the placement of crystals outside of their own claim.

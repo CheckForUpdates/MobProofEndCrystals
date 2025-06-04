@@ -1,0 +1,9 @@
+# radius specifies the radius of the cube
+radius: 64
+
+# lower-limit-distance specifies the distance between the crystal and the lower border of the area
+lower-limit-distance: 1
+
+# set crystal-name to a value to make only renamed end crystals to be spawn proofing;
+crystal-name: '&7&lMob&6&l&oProof &8- &CAnti&8-Mob Crystal'
+
